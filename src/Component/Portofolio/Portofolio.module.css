@@ -1,0 +1,30 @@
+.hugo {
+  position: relative;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.hugo::before {
+  content: '';
+  width: 90px;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  left: 40px;
+  top:10px ;
+}
+.hugo::after {
+  content: '';
+  width: 90px;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  right: 40px;
+  top:10px ;
+  
+}
+.layer {
+  position: absolute;
+  inset: ;
+  background-color: rgba(0, 128, 0, 0.534);
+}
